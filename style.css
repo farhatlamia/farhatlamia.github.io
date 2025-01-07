@@ -139,11 +139,11 @@ section ul li a {
         margin-bottom: 20px;
     }
 }
-
 #sidebar img {
-    width: 10px;
-    height: 10px;
+    max-width: 100%;
+    width: 10px !important; /* Set the desired width */
+    height: 10px !important; /* Set the desired height */
+    object-fit: cover; /* Ensures the image scales without distortion */
     border-radius: 50%; /* Makes the image circular */
-    margin: 20px auto;
-    display: block;
+    margin-bottom: 15px; /* Adds spacing below the image */
 }
