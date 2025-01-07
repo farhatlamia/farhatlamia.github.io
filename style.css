@@ -1,15 +1,14 @@
-/* General Styling */
+/* Reset Styles */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex; /* Enable a two-column layout */
     background-color: #f4f4f9;
 }
 
-h1, h2, h3 {
-    margin: 10px 0;
+h1, h2 {
+    margin: 0 0 10px;
 }
 
 p {
@@ -18,73 +17,86 @@ p {
 
 /* Sidebar Styling */
 #sidebar {
-    width: 25%;
+    width: 300px; /* Fixed width for sidebar */
     background-color: #007BFF;
     color: white;
     padding: 20px;
-    text-align: center;
+    height: 100vh; /* Full height */
+    position: fixed; /* Sidebar stays in place */
+    overflow-y: auto;
 }
 
 #sidebar img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    display: block;
 }
 
 #sidebar h1 {
-    font-size: 1.8rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #sidebar .social-links {
     list-style: none;
     padding: 0;
+    margin: 20px 0;
+    text-align: center;
 }
 
 #sidebar .social-links li {
     margin: 10px 0;
 }
 
-#sidebar .social-links a {
+#sidebar .social-links a, #sidebar nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation Links in Sidebar */
+#sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar nav ul li {
+    margin: 10px 0;
 }
 
 /* Main Content Styling */
 #main-content {
-    width: 75%;
+    margin-left: 320px; /* Leave space for the sidebar */
     padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #007BFF;
+    flex-grow: 1;
 }
 
 section {
     margin-bottom: 40px;
 }
 
-.news-item {
-    margin-bottom: 20px;
+/* Publications List */
+#publications ul {
+    list-style: none;
+    padding: 0;
 }
-@media (max-width: 768px) {
-    body {
-        flex-direction: column;
-    }
 
-    #sidebar {
-        width: 100%;
-    }
+#publications ul li {
+    margin: 10px 0;
+}
 
-    #main-content {
-        width: 100%;
-    }
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px auto;
+    display: block;
 }
