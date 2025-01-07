@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
-    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 
@@ -75,6 +75,8 @@ body {
     font-size: 1.5rem;
     margin-top: 10px;
     color: #333;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #sidebar p {
@@ -101,11 +103,11 @@ body {
 
 /* Main Content Styling */
 #main-content {
-    flex-grow: 1; /* Ensure main content stretches */
+    flex-grow: 1;
     padding: 20px;
-    min-height: 100vh; /* Makes sure the content takes full viewport height */
-    box-sizing: border-box; /* Includes padding in height calculations */
-    overflow-y: auto; /* Allows scrolling inside this container if needed */
+    min-height: 100vh; /* Ensure it spans the viewport height */
+    overflow-y: visible; /* Ensure the content inside is not hidden */
+    box-sizing: border-box;
 }
 
 section {
@@ -137,12 +139,12 @@ section ul li a {
 @media (max-width: 768px) {
     #main-container {
         display: flex;
-        flex-wrap: wrap; /* Ensures content wraps if space is tight */
+        flex-wrap: wrap; /* Ensures wrapping on smaller screens */
         justify-content: space-between;
-        align-items: flex-start; /* Aligns content to the top */
+        align-items: flex-start;
+        min-height: 100vh; /* Minimum height for the full viewport */
         padding: 20px;
-        min-height: 100vh; /* Full height for the container */
-        margin-top: 60px;
+        box-sizing: border-box; /* Includes padding in height calculation */
     }
 
     #sidebar {
