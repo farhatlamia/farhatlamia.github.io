@@ -103,11 +103,12 @@ body {
 
 /* Main Content Styling */
 #main-content {
-    flex-grow: 1;
+    flex-grow: 1; /* Ensures the main content expands */
     padding: 20px;
-    min-height: 100vh; /* Ensure it spans the viewport height */
-    overflow-y: visible; /* Ensure the content inside is not hidden */
-    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -139,6 +140,7 @@ section ul li a {
 @media (max-width: 768px) {
     #main-container {
         display: flex;
+        gap: 20px;
         flex-wrap: wrap; /* Ensures wrapping on smaller screens */
         justify-content: space-between;
         align-items: flex-start;
@@ -148,8 +150,13 @@ section ul li a {
     }
 
     #sidebar {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 280px; /* Adjust sidebar width as needed */
+        flex-shrink: 0; /* Prevents the sidebar from shrinking */
+        padding: 20px;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 }
 #sidebar img {
