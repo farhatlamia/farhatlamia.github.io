@@ -4,10 +4,13 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
+    overflow-y: auto; /* Enables vertical scrolling */
 }
+
 
 /* Navbar Styling */
 #navbar {
+    position: fixed;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
@@ -98,11 +101,11 @@ body {
 
 /* Main Content Styling */
 #main-content {
-    flex-grow: 1;
+    flex-grow: 1; /* Ensure main content stretches */
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; /* Makes sure the content takes full viewport height */
+    box-sizing: border-box; /* Includes padding in height calculations */
+    overflow-y: auto; /* Allows scrolling inside this container if needed */
 }
 
 section {
@@ -133,7 +136,13 @@ section ul li a {
 /* Responsive Design */
 @media (max-width: 768px) {
     #main-container {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap; /* Ensures content wraps if space is tight */
+        justify-content: space-between;
+        align-items: flex-start; /* Aligns content to the top */
+        padding: 20px;
+        min-height: 100vh; /* Full height for the container */
+        margin-top: 60px;
     }
 
     #sidebar {
