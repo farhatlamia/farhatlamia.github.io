@@ -1,90 +1,90 @@
-/* Global Styles */
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    color: #333;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f9;
 }
 
 h1, h2, h3 {
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    width: 25%;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
     text-align: center;
-    color: #222;
 }
 
-/* Hero Section */
-#hero {
-    background: #f4f4f4;
-    padding: 100px 20px;
-    text-align: center;
+#sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-#hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+#sidebar h1 {
+    font-size: 1.8rem;
 }
 
-#hero .social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #007BFF;
-}
-
-/* About Section */
-#about {
-    padding: 50px 20px;
-    background: #fff;
-}
-
-#about ul {
+#sidebar .social-links {
     list-style: none;
     padding: 0;
 }
 
-/* Projects Section */
-#projects {
-    padding: 50px 20px;
-    background: #f9f9f9;
+#sidebar .social-links li {
+    margin: 10px 0;
 }
 
-.project-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    background: #fff;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 300px;
-    text-align: center;
-}
-
-/* Contact Section */
-#contact {
-    padding: 50px 20px;
-    background: #f4f4f4;
-    text-align: center;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #007BFF;
-    color: #fff;
+#sidebar .social-links a {
+    color: white;
     text-decoration: none;
-    border-radius: 5px;
+}
+
+/* Main Content Styling */
+#main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.news-item {
+    margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-    .project-cards {
+    body {
         flex-direction: column;
-        align-items: center;
     }
 
-    #hero h1 {
-        font-size: 2rem;
+    #sidebar {
+        width: 100%;
+    }
+
+    #main-content {
+        width: 100%;
     }
 }
