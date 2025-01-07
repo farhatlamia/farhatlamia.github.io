@@ -11,21 +11,19 @@ body {
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 }
 
-#navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #navbar h1 {
     font-size: 1.5rem;
     color: #333;
+    margin: 0;
 }
 
 #navbar nav ul {
@@ -36,11 +34,21 @@ body {
     padding: 0;
 }
 
+#navbar nav ul li {
+    margin: 0;
+}
+
 #navbar nav ul li a {
     text-decoration: none;
-    color: #007bff;
     font-weight: bold;
+    color: #666;
+    font-size: 1rem;
 }
+
+#navbar nav ul li a:hover {
+    color: #007bff;
+}
+
 
 /* Main Container */
 #main-container {
@@ -50,26 +58,19 @@ body {
     gap: 20px;
 }
 
-/* Sidebar Styling */
 #sidebar {
-    width: 300px;
+    width: 300px; /* Adjust as needed */
+    text-align: center; /* Center-align all content in the sidebar */
+    padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+    border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#sidebar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
 #sidebar h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-top: 10px;
     color: #333;
 }
 
@@ -77,6 +78,7 @@ body {
     font-size: 0.9rem;
     color: #666;
 }
+
 
 #sidebar .social-links {
     list-style: none;
@@ -140,10 +142,10 @@ section ul li a {
     }
 }
 #sidebar img {
-    max-width: 100%;
-    width: 10px !important; /* Set the desired width */
-    height: 10px !important; /* Set the desired height */
-    object-fit: cover; /* Ensures the image scales without distortion */
+    width: 120px; /* Adjust width to fit the layout */
+    height: 120px; /* Ensure a consistent height */
+    object-fit: cover; /* Keeps the aspect ratio while cropping if needed */
     border-radius: 50%; /* Makes the image circular */
-    margin-bottom: 15px; /* Adds spacing below the image */
+    margin: 0 auto; /* Center-aligns the image */
+    display: block; /* Ensures proper alignment */
 }
