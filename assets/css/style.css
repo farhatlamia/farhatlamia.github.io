@@ -103,6 +103,7 @@ body {
 
 /* Main Content Styling */
 #main-content {
+    width: 100%;
     flex-grow: 1; /* Ensures the main content expands */
     padding: 20px;
     background-color: #ffffff;
@@ -139,6 +140,7 @@ section ul li a {
 /* Responsive Design */
 @media (max-width: 768px) {
     #main-container {
+        flex-direction: column;
         display: flex;
         gap: 20px;
         flex-wrap: wrap; /* Ensures wrapping on smaller screens */
@@ -150,7 +152,8 @@ section ul li a {
     }
 
     #sidebar {
-        width: 280px; /* Adjust sidebar width as needed */
+        width: 100%;
+        margin-bottom: 20px;
         flex-shrink: 0; /* Prevents the sidebar from shrinking */
         padding: 20px;
         background-color: #f8f9fa;
