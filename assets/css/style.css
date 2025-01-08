@@ -10,8 +10,8 @@ body {
 /* Main Container */
 #main-container {
     display: flex;
-    gap: 20px;
-    margin-top: 60px; /* Adjust for fixed navbar */
+    gap: 30px;
+    margin-top: 80px; /* Adjust for fixed navbar */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
