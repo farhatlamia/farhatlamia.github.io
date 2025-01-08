@@ -20,7 +20,7 @@ body {
 
 /* Sidebar */
 #sidebar {
-    width: 500px; /* Increased width */
+    width: 400px; /* Increased width */
     text-align: center;
     padding: 20px;
     background-color: #ffffff;
@@ -69,12 +69,14 @@ body {
 #main-content {
     flex-grow: 1;
     padding: 20px;
+    min-width: 0;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: visible; /* Allow content to expand */
     min-height: 100%; /* Prevent content cutting off */
+    box-sizing: border-box;
 }
 
 /* Navbar Styling */
