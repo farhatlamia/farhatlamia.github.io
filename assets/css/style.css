@@ -83,6 +83,7 @@ body {
 #navbar {
     display: flex; /* Ensures horizontal alignment */
     justify-content: center; /* Space out title and links */
+    flex-direction: column;
     align-items: center; /* Align items vertically */
     background-color: #ffffff;
     padding: 10px 20px;
@@ -96,7 +97,7 @@ body {
 
 #navbar h1 {
     font-size: 1.5rem;
-    margin-right: auto;
+    margin: 0;
     color: #333;
 }
 
@@ -104,7 +105,7 @@ body {
     list-style: none;
     display: flex; /* Display links horizontally */
     gap: 20px; /* Space between links */
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
 }
 
@@ -147,6 +148,7 @@ body {
 
     #navbar nav ul {
         flex-direction: column; /* Stack links vertically */
+        align-items: center;
         gap: 10px; /* Add spacing between title and links */
         width: 100%; /* Make the links span full width */
     }
