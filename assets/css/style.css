@@ -158,14 +158,14 @@ body {
         padding: 10px 0; /* Add padding for touch-friendly design */
     }
 }
-/* Education Section Styling */
+/* Education Section */
 #education {
-    margin-top: 20px; /* Space above the section */
+    margin-top: 20px; /* Adds space above the Education box */
     padding: 20px;
-    background-color: #ffffff; /* Background color for the box */
-    border: 1px solid #ddd; /* Subtle border */
+    background-color: #ffffff; /* Box background color */
+    border: 1px solid #ddd; /* Border for separation */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 #education h2 {
