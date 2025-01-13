@@ -158,6 +158,7 @@ body {
         padding: 10px 0; /* Add padding for touch-friendly design */
     }
 }
+
 /* Education Section */
 #education {
     margin-top: 20px; /* Adds space above the Education box */
@@ -189,4 +190,27 @@ body {
     font-size: 1rem; /* Institution and location size */
     color: #666; /* Text color */
     margin: 0; /* Remove extra margins */
+}
+/* Content Section (Main) */
+#content-section {
+    margin-bottom: 20px; /* Adds space below the Welcome box */
+    padding: 20px;
+    background-color: #ffffff; /* Box background color */
+    border: 1px solid #ddd; /* Border for separation */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#content-section h2 {
+    font-size: 1.8rem; /* Section title size */
+    margin-bottom: 15px; /* Space below the title */
+    color: #333; /* Title color */
+    text-align: center; /* Center-align the section title */
+}
+
+#content-section p {
+    font-size: 1rem; /* Text size */
+    line-height: 1.6; /* Improves readability */
+    color: #666; /* Text color */
+    margin-bottom: 10px; /* Space between paragraphs */
 }
