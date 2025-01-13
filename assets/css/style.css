@@ -158,3 +158,35 @@ body {
         padding: 10px 0; /* Add padding for touch-friendly design */
     }
 }
+/* Education Section Styling */
+#education {
+    margin-top: 20px; /* Space above the section */
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the box */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+#education h2 {
+    font-size: 1.8rem; /* Section title size */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Title color */
+    text-align: center; /* Center-align the section title */
+}
+
+.education-entry {
+    margin-bottom: 20px; /* Space between each education entry */
+}
+
+.education-entry h3 {
+    font-size: 1.2rem; /* Degree title size */
+    color: #007bff; /* Text color */
+    margin: 0 0 5px 0; /* Adjust spacing around the degree */
+}
+
+.education-entry p {
+    font-size: 1rem; /* Institution and location size */
+    color: #666; /* Text color */
+    margin: 0; /* Remove extra margins */
+}
