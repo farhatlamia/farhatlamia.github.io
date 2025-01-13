@@ -214,3 +214,38 @@ body {
     color: #666; /* Text color */
     margin-bottom: 10px; /* Space between paragraphs */
 }
+
+/* Fix Overlap: Add margin to the content */
+#main-content {
+    margin-top: 100px; /* Push content below the navbar */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Publications Section */
+.publication-year {
+    margin-bottom: 40px; /* Space between years */
+}
+
+.publication-year h3 {
+    font-size: 1.5rem;
+    color: #007bff; /* Highlight year headers */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd; /* Optional: Underline for the year */
+    padding-bottom: 5px;
+}
+
+.publication-year ul {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0;
+}
+
+.publication-year li {
+    margin-bottom: 20px; /* Space between publications */
+    font-size: 1rem;
+    color: #333; /* Publication text color */
+    line-height: 1.6; /* Improve readability */
+}
