@@ -11,7 +11,7 @@ body {
 #main-container {
     display: flex;
     gap: 30px;
-    margin-top: 80px; /* Adjust for fixed navbar */
+    margin-top: 50px; /* Reduced from 80px */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
@@ -81,17 +81,17 @@ body {
 
 /* Navbar Styling */
 #navbar {
-    display: flex; /* Ensures horizontal alignment */
-    justify-content: center; /* Space out title and links */
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center; /* Align items vertically */
+    align-items: center;
     background-color: #ffffff;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd; /* Optional: Add a subtle bottom border */
-    position: fixed; /* Fix the navbar at the top */
+    padding: 15px 20px; /* Slightly increased padding */
+    border-bottom: 1px solid #ddd;
+    position: fixed;
     top: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it stays on top */
+    width: 100%;
+    z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -193,12 +193,12 @@ body {
 }
 /* Content Section (Main) */
 #content-section {
-    margin-bottom: 20px; /* Adds space below the Welcome box */
+    margin-top: 0; /* Remove extra margin if there */
     padding: 20px;
-    background-color: #ffffff; /* Box background color */
-    border: 1px solid #ddd; /* Border for separation */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #content-section h2 {
