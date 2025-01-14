@@ -10,7 +10,7 @@ body {
 #main-container {
     display: flex;
     gap: 30px;
-    margin-top: 50px; /* Reduced from 80px */
+    margin-top: 80px; /* Reduced from 80px */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
@@ -248,4 +248,20 @@ body {
     font-size: 1rem;
     color: #333; /* Publication text color */
     line-height: 1.6; /* Improve readability */
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
