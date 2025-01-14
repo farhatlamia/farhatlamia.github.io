@@ -259,18 +259,22 @@ body {
     border: none; /* Optional: Remove the iframe border */
 }
 
-.work-page #sidebar {
-    width: 200px; /* Sidebar width on the CV page */
+/* Adjustments for the Work Experience Page */
+.work-page #main-content {
+    flex-grow: 3; /* Increase the space allocation for the main content */
+    padding: 30px; /* Adjust padding for better readability */
 }
 
-.work-page #main-content {
-    flex-grow: 3; /* Increase the width of the resume section */
+.work-page #sidebar {
+    width: 300px; /* Adjust the sidebar width for balance */
+}
+
+/* Adjustments for the Work Experience Page */
+.award-page #main-content {
+    flex-grow: 3; /* Increase the space allocation for the main content */
+    padding: 30px; /* Adjust padding for better readability */
 }
 
 .award-page #sidebar {
-    width: 200px; /* Sidebar width on the CV page */
-}
-
-.award-page #main-content {
-    flex-grow: 3; /* Increase the width of the resume section */
+    width: 300px; /* Adjust the sidebar width for balance */
 }
