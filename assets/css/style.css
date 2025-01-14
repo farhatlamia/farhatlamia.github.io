@@ -193,7 +193,7 @@ body {
 }
 /* Content Section (Main) */
 #content-section {
-    margin-top: 20px; /* Remove extra margin if there */
+    margin-top: 10px; /* Remove extra margin if there */
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
