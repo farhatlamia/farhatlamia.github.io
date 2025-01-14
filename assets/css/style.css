@@ -11,7 +11,7 @@ body {
 #main-container {
     display: flex;
     gap: 30px;
-    margin-top: 50px; /* Reduced from 80px */
+    margin-top: 110px; /* Reduced from 80px */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
@@ -27,6 +27,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
 }
 
 #sidebar img {
@@ -193,7 +194,7 @@ body {
 }
 /* Content Section (Main) */
 #content-section {
-    margin-top: 10px; /* Remove extra margin if there */
+    margin-top: 5px; /* Remove extra margin if there */
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
