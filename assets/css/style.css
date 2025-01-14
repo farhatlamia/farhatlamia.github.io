@@ -94,7 +94,6 @@ body {
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it stays on top */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 70px;
 }
 
 #navbar h1 {
