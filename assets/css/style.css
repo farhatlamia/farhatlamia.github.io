@@ -27,7 +27,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 40px; /* this one is responsible for the gap above sidebar */
+    margin-top: 20px; /* this one is responsible for the gap above sidebar */
 }
 
 #sidebar img {
