@@ -245,3 +245,6 @@ body {
     line-height: 1.6; /* Improve readability */
 }
 
+.cv-page #sidebar {
+    width: 300px; /* Fix for CV page only */
+}
