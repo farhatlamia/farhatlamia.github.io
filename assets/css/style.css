@@ -266,7 +266,7 @@ body {
 }
 
 .work-page #sidebar {
-    width: 300px; /* Adjust the sidebar width for balance */
+    width: 200px; /* Adjust the sidebar width for balance */
 }
 
 /* Adjustments for the Work Experience Page */
@@ -276,5 +276,5 @@ body {
 }
 
 .award-page #sidebar {
-    width: 300px; /* Adjust the sidebar width for balance */
+    width: 200px; /* Adjust the sidebar width for balance */
 }
