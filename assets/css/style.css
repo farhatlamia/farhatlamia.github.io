@@ -77,7 +77,7 @@ body {
     overflow: visible; /* Allow content to expand */
     min-height: 100%; /* Prevent content cutting off */
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Navbar Styling */
