@@ -89,7 +89,7 @@ body {
     padding: 10px 20px;
     border-bottom: 1px solid #ddd; /* Optional: Add a subtle bottom border */
     position: fixed; /* Fix the navbar at the top */
-    top: 10px;
+    top: 0;
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it stays on top */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
