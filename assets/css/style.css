@@ -11,7 +11,7 @@ body {
 #main-container {
     display: flex;
     gap: 30px;
-    margin-top: 0; /* Reduced from 80px */
+    margin-top: 50px; /* Reduced from 80px */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
@@ -81,17 +81,17 @@ body {
 
 /* Navbar Styling */
 #navbar {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Ensures horizontal alignment */
+    justify-content: center; /* Space out title and links */
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Align items vertically */
     background-color: #ffffff;
-    padding: 15px 20px; /* Slightly increased padding */
-    border-bottom: 1px solid #ddd;
-    position: fixed;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd; /* Optional: Add a subtle bottom border */
+    position: fixed; /* Fix the navbar at the top */
     top: 0;
-    width: 100%;
-    z-index: 1000;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
