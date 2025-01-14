@@ -10,7 +10,7 @@ body {
 #main-container {
     display: flex;
     gap: 30px;
-    margin-top: 50px; /* Reduced from 80px */
+    margin-top: 80px; /* Reduced from 80px */
     padding: 20px;
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
