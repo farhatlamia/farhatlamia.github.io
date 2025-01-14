@@ -68,7 +68,7 @@ body {
 /* Main Content */
 #main-content {
     flex-grow: 1;
-    padding: 20px;
+    padding: 0;
     min-width: 0;
     background-color: #ffffff;
     border: 1px solid #ddd;
