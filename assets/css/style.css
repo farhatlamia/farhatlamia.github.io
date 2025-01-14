@@ -246,5 +246,15 @@ body {
 }
 
 .cv-page #sidebar {
-    width: 300px; /* Fix for CV page only */
+    width: 250px; /* Sidebar width on the CV page */
+}
+
+.cv-page #main-content {
+    flex-grow: 2; /* Increase the width of the resume section */
+}
+
+#main-content iframe {
+    width: 100%; /* Ensure the embedded PDF takes the full width of the main content */
+    height: 600px; /* Adjust the height as needed */
+    border: none; /* Optional: Remove the iframe border */
 }
