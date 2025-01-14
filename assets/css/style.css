@@ -250,7 +250,7 @@ body {
 }
 
 .cv-page #main-content {
-    flex-grow: 2; /* Increase the width of the resume section */
+    flex-grow: 3; /* Increase the width of the resume section */
 }
 
 #main-content iframe {
