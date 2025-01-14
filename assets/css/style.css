@@ -218,7 +218,7 @@ body {
 
 /* Fix Overlap: Add margin to the content */
 #main-content {
-    margin-top: 0; /* Push content below the navbar */
+    margin-top: 50px; /* Push content below the navbar */
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
