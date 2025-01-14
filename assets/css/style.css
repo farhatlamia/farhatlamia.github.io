@@ -15,6 +15,7 @@ body {
     align-items: flex-start;
     min-height: 100vh; /* Ensure full-page height */
     box-sizing: border-box;
+    padding-top: 0;
 }
 
 /* Sidebar */
@@ -77,6 +78,7 @@ body {
     overflow: visible; /* Allow content to expand */
     min-height: 100%; /* Prevent content cutting off */
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 /* Navbar Styling */
@@ -93,6 +95,8 @@ body {
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it stays on top */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 0; /* Reduce padding to eliminate extra space */
+    margin-bottom: 0;
 }
 
 #navbar h1 {
@@ -215,15 +219,6 @@ body {
     margin-bottom: 10px; /* Space between paragraphs */
 }
 
-/* Fix Overlap: Add margin to the content */
-#main-content {
-    margin-top: 100px; /* Push content below the navbar */
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
 /* Publications Section */
 .publication-year {
