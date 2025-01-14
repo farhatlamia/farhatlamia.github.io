@@ -86,8 +86,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px 20px; /* Slightly increased padding */
-    margin-bottom: 0; /* Prevent navbar bottom margin */
+    padding: 15px 20px; /* Slightly increased padding */
     border-bottom: 1px solid #ddd;
     position: fixed;
     top: 0;
@@ -218,7 +217,7 @@ body {
 
 /* Fix Overlap: Add margin to the content */
 #main-content {
-    margin-top: 50px; /* Push content below the navbar */
+    margin-top: 100px; /* Push content below the navbar */
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ddd;
