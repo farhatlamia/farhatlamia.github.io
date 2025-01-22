@@ -245,10 +245,6 @@ body {
     line-height: 1.6; /* Improve readability */
 }
 
-.cv-page #sidebar {
-    width: 200px; /* Sidebar width on the CV page */
-}
-
 .cv-page #main-content {
     flex-grow: 3; /* Increase the width of the resume section */
 }
@@ -265,23 +261,8 @@ body {
     padding: 30px; /* Adjust padding for better readability */
 }
 
-.work-page #sidebar {
-    width: 200px; /* Adjust the sidebar width for balance */
-}
-
 /* Adjustments for the Work Experience Page */
 .award-page #main-content {
     flex-grow: 3; /* Increase the space allocation for the main content */
     padding: 30px; /* Adjust padding for better readability */
-}
-
-.award-page #sidebar {
-    width: 200px; /* Adjust the sidebar width for balance */
-}
-
-.paper-page #sidebar {
-    width: 200px; /* Adjust the sidebar width for balance */
-}
-.project-page #sidebar {
-    width: 200px; /* Adjust the sidebar width for balance */
 }
