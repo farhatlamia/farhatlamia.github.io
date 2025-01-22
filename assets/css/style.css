@@ -267,3 +267,6 @@ body {
     padding: 30px; /* Adjust padding for better readability */
 }
 
+body #sidebar {
+    width: 500px; /* Higher specificity */
+}
