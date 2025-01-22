@@ -249,6 +249,10 @@ body {
     flex-grow: 3; /* Increase the width of the resume section */
 }
 
+.cv-page #sidebar {
+    width: 200px; /* Sidebar width on the CV page */
+}
+
 #main-content iframe {
     width: 100%; /* Ensure the embedded PDF takes the full width of the main content */
     height: 600px; /* Adjust the height as needed */
@@ -265,10 +269,6 @@ body {
 .award-page #main-content {
     flex-grow: 3; /* Increase the space allocation for the main content */
     padding: 30px; /* Adjust padding for better readability */
-}
-
-.cv-page #sidebar {
-    width: 200px; /* Sidebar width on the CV page */
 }
 
 .work-page #sidebar {
