@@ -278,3 +278,10 @@ body {
 .award-page #sidebar {
     width: 200px; /* Adjust the sidebar width for balance */
 }
+
+.paper-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
+.project-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
