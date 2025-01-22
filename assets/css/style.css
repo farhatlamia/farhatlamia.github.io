@@ -266,3 +266,22 @@ body {
     flex-grow: 3; /* Increase the space allocation for the main content */
     padding: 30px; /* Adjust padding for better readability */
 }
+
+.cv-page #sidebar {
+    width: 200px; /* Sidebar width on the CV page */
+}
+
+.work-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
+
+.award-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
+
+.paper-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
+.project-page #sidebar {
+    width: 200px; /* Adjust the sidebar width for balance */
+}
